@@ -22,20 +22,9 @@ if __name__ == '__main__':
     else:
         game_id = opt.gameId if opt.gameId in game_dict.keys() else random.sample(game_dict.keys(),1)[0]
 
-    # Settings
-    settings = {
-        "step_ratio": 6,
-        "hardcore": False,
-        "difficulty": 4,
-        "characters": ("Random"),
-        "char_outfits": 1,
-        "action_space": "multi_discrete",
-        "attack_but_combination": False
-    }
-
     stViz = styleTransferViz(stylesList)
 
-    env = diambra.arena.make(game_id, settings)
+    env = diambra.arena.make(game_id, {"step_ratio": 6})
     observation = env.reset()
 
     counter = 0

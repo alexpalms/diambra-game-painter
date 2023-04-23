@@ -1,0 +1,4 @@
+diambra==0.0.14
+diambra-arena==2.1.0rc5
+Pillow==9.5.0
+torch==2.0.0
