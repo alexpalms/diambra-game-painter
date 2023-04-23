@@ -4,7 +4,7 @@
 
 This project is an experiment that applies in real-time the style of famous paintings to popular fighting retro games, which are provided as Reinforcement Learning environments by DIAMBRA (<a href="https://github.com/diambra" target_="blank">GitHub</a> - <a href="https://diambra.ai" target_="blank">Website</a>).
 
-It is based on <a href="https://github.com/1627180283/real-time-Style-Transfer" target_="blank">this implementation</a> of the paper <a href="https://arxiv.org/abs/1603.08155" target_="blank">Perceptual Losses for Real-Time Style Transfer and Super-Resolution</a>.
+It is based on <a href="https://github.com/1627180283/real-time-Style-Transfer" target="_blank">this implementation</a> of the paper <a href="https://arxiv.org/abs/1603.08155" target="_blank">Perceptual Losses for Real-Time Style Transfer and Super-Resolution</a>.
 
 ## How to run it
 
